@@ -1,0 +1,31 @@
+//*actividad estilo como una calculadora pero dando todos los resultados en operaciones aritmeticas como la suma la resta la multiplicacion y la division
+
+#include<iostream>
+#include<conio.h> //¿Podemos usar otras librerias para darle mas presentacion al programa?
+
+using namespace std;
+
+int main(){
+    float numero1, numero2;
+    
+    cout<<"Introduce el primer numero : ";  //primer valor
+    cin>>numero1;
+    
+    cout<<"introduce el seguro numero : ";  //segundo valor
+    cin>>numero2; 
+    
+    float suma = numero1 + numero2;
+    float resta = numero1 - numero2;
+    float multiplicacion = numero1 * numero2;
+    float division = numero1 / numero2;
+    
+    cout<<"La suma es = " << suma <<endl;   //resultado de la suma
+    cout<<"La resta es = " << resta <<endl;   //resultado de la resta 
+    cout<<"La multiplicacion es = " << multiplicacion <<endl;   //resultado de la multiplicacion
+    cout<<"La division es = " << division <<endl;   //resultado de la division
+    
+    getch();
+    return 0;
+    
+}
+ 
